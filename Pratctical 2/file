@@ -23,7 +23,8 @@ Description: Data is stored in tables (relations) with rows and columns. It uses
 Example: MySQL, Oracle DB, Microsoft SQL Server, PostgreSQL
 
 4. Object-Oriented DBMS (OODBMS)
-Description: Data is stored as objects, similar to how data is handled in object-oriented programming. It supports complex data types like images, videos, and more.
+Description: Data is stored as objects, similar to how data is handled in object-oriented programming. It supports complex data types like images, 
+videos, and more.
 Example: ObjectDB, db4o, GemStone/S
 
 5.NoSQL DBMS
