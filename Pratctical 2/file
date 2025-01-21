@@ -26,6 +26,16 @@ Example: MySQL, Oracle DB, Microsoft SQL Server, PostgreSQL
 Description: Data is stored as objects, similar to how data is handled in object-oriented programming. It supports complex data types like images, videos, and more.
 Example: ObjectDB, db4o, GemStone/S
 
+5.NoSQL DBMS
+NoSQL DBMS is designed for handling large volumes of unstructured or semi-structured data.
+Includes document databases, key-value stores, column-family stores, and graph databases.
+Data access varies depending on the specific NoSQL type.
+
+6. Graph-based DBMS
+Graph-based DBMS stores data in graph structures with nodes (entities) and edges (relationships).
+Uses graph query languages like Gremlin or SPARQL.
+
+
 
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
