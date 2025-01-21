@@ -1,1 +1,66 @@
 
+1. What is dbms
+
+A Database Management System (DBMS) is software that enables the creation, management, and manipulation of databases. 
+It allows users to store, retrieve, update, and manage data efficiently. DBMS ensures data integrity, security, and 
+consistency while supporting multiple users and applications. Examples include MySQL, Oracle, and Microsoft SQL Server.
+
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+2.Explain types of dbms , also give example of each
+
+1.Hierarchical DBMS
+Description: Data is organized in a tree-like structure with parent-child relationships. Each child record has only one parent, forming a hierarchy.
+Example: IBM Information Management System (IMS)
+
+2. Network DBMS
+Description: Data is organized in a graph structure where records can have multiple parent and child relationships, allowing more complex relationships.
+Example: Integrated Data Store (IDS), IDMS (Integrated Database Management System)
+
+3. Relational DBMS (RDBMS)
+Description: Data is stored in tables (relations) with rows and columns. It uses Structured Query Language (SQL) to manage and manipulate data.
+Example: MySQL, Oracle DB, Microsoft SQL Server, PostgreSQL
+
+4. Object-Oriented DBMS (OODBMS)
+Description: Data is stored as objects, similar to how data is handled in object-oriented programming. It supports complex data types like images, videos, and more.
+Example: ObjectDB, db4o, GemStone/S
+
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+3.advantages and disadvantages of dbms
+
+Advantages of DBMS
+
+Controls database redundancy: It can control data redundancy because it stores all the data in one single database file and that recorded data is placed in the database.
+Data sharing: In DBMS, the authorized users of an organization can share the data among multiple users.
+Easily Maintenance: It can be easily maintainable due to the centralized nature of the database system.
+Reduce time: It reduces development time and maintenance need.
+Backup: It provides backup and recovery subsystems which create automatic backup of data from hardware and software failures and restores the data if required.
+multiple user interface: It provides different types of user interfaces like graphical user interfaces, application program interfaces
+
+
+Disadvantages of DBMS
+
+Cost of Hardware and Software: It requires a high speed of data processor and large memory size to run DBMS software.
+Size: It occupies a large space of disks and large memory to run them efficiently.
+Complexity: Database system creates additional complexity and requirements.
+Higher impact of failure: Failure is highly impacted the database because in most of the organization, all the data stored in a single database and
+if the database is damaged due to electric failure or database corruption then the data may be lost forever.
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+4.Applications of dbms
+
+Banking and Finance: Transaction processing, loan management, ATM systems, financial reporting.
+E-Commerce: Product catalogs, customer data, order processing, inventory management.
+Telecommunications: Call data management, customer billing, network management.
+Healthcare: Patient records, medical data management, appointment scheduling.
+Education: Student records, course management, exam scheduling.
+Government: Tax records, citizen data management, administrative databases.
+Manufacturing: Inventory control, supply chain management, production tracking.
+Social Media: User profiles, posts, messaging, content recommendations.
+Retail: Sales data, inventory management, customer loyalty programs.
+Travel and Hospitality: Booking systems, customer profiles, reservation management.
