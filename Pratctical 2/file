@@ -1,5 +1,5 @@
 
-1. What is dbms
+1. What is DBMS
 
 A Database Management System (DBMS) is software that enables the creation, management, and manipulation of databases. 
 It allows users to store, retrieve, update, and manage data efficiently. DBMS ensures data integrity, security, and 
@@ -8,7 +8,7 @@ consistency while supporting multiple users and applications. Examples include M
 
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
-2.Explain types of dbms , also give example of each
+2.Explain types of dbms ,also give example of each.
 
 1.Hierarchical DBMS
 Description: Data is organized in a tree-like structure with parent-child relationships. Each child record has only one parent, forming a hierarchy.
@@ -29,7 +29,7 @@ Example: ObjectDB, db4o, GemStone/S
 
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
-3.advantages and disadvantages of dbms
+3.Advantages and disadvantages of dbms
 
 Advantages of DBMS
 
@@ -52,7 +52,7 @@ if the database is damaged due to electric failure or database corruption then t
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 
-4.Applications of dbms
+4.Applications of DBMS
 
 Banking and Finance: Transaction processing, loan management, ATM systems, financial reporting.
 E-Commerce: Product catalogs, customer data, order processing, inventory management.
@@ -67,9 +67,9 @@ Travel and Hospitality: Booking systems, customer profiles, reservation manageme
 
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
-5.write down steps for installation of mysql on ubuntu
-Update Package Index:
+5.Write down steps for installation of mysql on ubuntu
 
+Update Package Index:
 sudo apt update
 
 Install MySQL Server:
