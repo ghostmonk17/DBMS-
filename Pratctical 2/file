@@ -64,3 +64,25 @@ Manufacturing: Inventory control, supply chain management, production tracking.
 Social Media: User profiles, posts, messaging, content recommendations.
 Retail: Sales data, inventory management, customer loyalty programs.
 Travel and Hospitality: Booking systems, customer profiles, reservation management.
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+5.write down steps for installation of mysql on ubuntu
+Update Package Index:
+
+sudo apt update
+
+Install MySQL Server:
+sudo apt install mysql-server
+
+Check MySQL Service Status:
+sudo systemctl status mysql
+
+Secure MySQL Installation:
+sudo mysql_secure_installation
+
+Log into MySQL:
+sudo mysql -u root -p
+
+Enable MySQL to Start on Boot (Optional):
+sudo systemctl enable mysql
