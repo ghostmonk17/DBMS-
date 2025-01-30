@@ -1,0 +1,105 @@
+
+Q1)What is SQLite? Uses of Sqlite. Building and installing SQLite.
+Ans-> 
+SQLite is a lightweight, serverless, self-contained SQL database engine. 
+Unlike traditional database systems like MySQL or PostgreSQL, SQLite doesn’t require a server to run. 
+It’s embedded directly into the application that uses it, which makes it easy to set up and use.
+
+Some key features of SQLite:
+	1.	Serverless: It doesn't require a separate server or network connection.
+	2.	Zero Configuration: No setup or administration is needed.
+	3.	Self-contained: Everything is stored in a single file, making it portable.
+	4.	ACID-compliant: It supports transactions and ensures data integrity (Atomicity, Consistency, Isolation, Durability).
+	5.	Lightweight: It's designed to be small, fast, and efficient.
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q2)show all commants to install SQLlite?
+ans-> 
+
+Step 1: Update the system repositories
+sudo apt update
+sudo apt upgrade
+Step 2: Install SQLite 3
+sudo apt install sqlite3
+Step 3: Verify the Installation
+sqlite3 –version
+Step 4: Using SQLite 3
+Now that SQLite 3 is installed, you can start using it. To begin working with SQLite, simply type:
+sqlite3
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q3)featurs and limitation of SQLlite?
+
+Features of SQLite:
+1.Serverless:
+    SQLite is embedded directly into the application. It doesn’t require a separate database server or daemon process, which reduces overhead.
+
+2. Zero Configuration:
+    There’s no need for complex installation or configuration. You can start using SQLite simply by accessing the database file.
+
+3.Self-contained:
+    SQLite databases are stored in a single file, making them very portable. This makes it easy to back up, move, or share the database.
+
+4.Cross-Platform:
+    SQLite works on many platforms, including Windows, macOS, Linux, and mobile operating systems (iOS, Android). 
+    This makes it ideal for multi-platform applications.
+    
+5.Lightweight:
+    SQLite is designed to be small and fast. The library size is tinyWhat is SQLite? Uses of Sqlite. Building and installing SQLite., 
+    and it requires minimal memory to run, which is ideal for mobile and embedded devices.
+
+6.Supports SQL Syntax:
+    It supports most of the SQL standards, such as SELECT, INSERT, UPDATE, DELETE, and JOIN. 
+    It also provides features like foreign key constraints (if enabled) and triggers.
+
+Limitations of SQLite:
+
+1.Limited Concurrency:
+    While SQLite allows for concurrent reads,"To learn how to use SQLite for creating and managing databases in small applications."
+It has limited support for concurrent writes. Only one write operation can happen at a time. 
+This is due to the file-locking mechanism. In high-concurrency environments (like large-scale web apps), this can become a bottleneck.
+
+2. Lacks User Management:
+    Unlike full-fledged database management systems (DBMS) like MySQL or PostgreSQL, SQLite doesn’t have built-in user management, 
+    authentication, or authorization features. Security and access control must be handled at the application level.
+
+3.Limited Support for Advanced Features:
+    Some features in larger RDBMS like materialized views, full-text search (though it has basic support), 
+    and advanced indexing techniques are either absent or have limited implementation in SQLite.
+
+4. Size Limitations:
+    Although SQLite can handle large databases (up to 140 terabytes theoretically), performance can degrade as the database grows significantly,
+    especially with large numbers of concurrent writes or complex queries.
+
+5.Lacks Network Support:
+    SQLite is designed for local storage, so it’s not intended for distributed or networked environments. 
+    You can’t easily run SQLite as a server for remote clients like you can with MySQL, PostgreSQL, etc.
+
+6.No Full-Text Search by Default:
+    SQLite doesn’t have built-in full-text search by default. However, it provides an extension called FTS5 (Full-Text Search) 
+    to implement search functionalities, but it’s not as powerful or efficient as full-text search solutions in other databases.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q4)Application of SQLlite?
+
+1. Mobile Applications
+SQLite is often used in mobile apps (on iOS and Android) because it is small, fast, and doesn't 
+require a separate server to manage. Mobile apps can use it to store user data, app preferences, or offline data.
+
+2. Embedded SystemsWhat is SQLite? Uses of Sqlite. Building and installing SQLite.
+SQLite is commonly found in embedded systems where resources like memory and storage are limited. 
+Examples include smart home devices, IoT (Internet of Things) devices, and hardware like routers or cameras that need local storage.
+
+3. Desktop Applications
+SQLite is a popular choice for desktop applications that require local data storage. Many productivity applications, 
+such as note-taking apps or personal finance software, use SQLite for managing data locally
+
+4. Web Browsers
+Browsers like Firefox and Chrome use SQLite to store local data like browsing history, bookmarks, and other metadata on the user’s device.
+
+5. Cache Storage
+Websites and applications sometimes use SQLite to store temporary data (such as images, scripts, or other files) 
+for offline use or for faster access when the data is needed again.
+
+6. Gaming
+Some video games or game engines use SQLite to manage game data such as scores, user settings, 
+and other persistent data due to its quick setup and minimal resource usage.
