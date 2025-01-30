@@ -84,7 +84,7 @@ Q4)Application of SQLlite?
 SQLite is often used in mobile apps (on iOS and Android) because it is small, fast, and doesn't 
 require a separate server to manage. Mobile apps can use it to store user data, app preferences, or offline data.
 
-2. Embedded SystemsWhat is SQLite? Uses of Sqlite. Building and installing SQLite.
+2. Embedded Systems.
 SQLite is commonly found in embedded systems where resources like memory and storage are limited. 
 Examples include smart home devices, IoT (Internet of Things) devices, and hardware like routers or cameras that need local storage.
 
