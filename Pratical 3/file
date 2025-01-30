@@ -44,8 +44,7 @@ Features of SQLite:
     This makes it ideal for multi-platform applications.
     
 5.Lightweight:
-    SQLite is designed to be small and fast. The library size is tinyWhat is SQLite? Uses of Sqlite. Building and installing SQLite., 
-    and it requires minimal memory to run, which is ideal for mobile and embedded devices.
+    SQLite is designed to be small and fast. The library size is tiny.,and it requires minimal memory to run, which is ideal for mobile and embedded devices.
 
 6.Supports SQL Syntax:
     It supports most of the SQL standards, such as SELECT, INSERT, UPDATE, DELETE, and JOIN. 
