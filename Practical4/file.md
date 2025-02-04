@@ -50,15 +50,7 @@ An **EER (Enhanced Entity-Relationship)** diagram is an extension of the ER diag
 
 - **Does Not Handle Behavior**: ER diagrams primarily focus on the structure of the database (entities and relationships) but do not depict the behaviors, processes, or workflows of the system (e.g., how data is manipulated).
 
-- **Lacks Detailed Constraints**: ER diagrams provide a basic view of relationships and attributes but don't capture detailed constraints like triggers, stored procedures, or business logic that may affect the database.
-
-- **No Standardization**: There is no universally accepted standard for ER diagrams. Different designers may use slightly different notations or symbols, which can lead to confusion or misinterpretation.
-
-- **Limited Support for Advanced Features**: ER diagrams can become inefficient when trying to represent advanced database features such as inheritance, polymorphism, or recursive relationships (handled better by EER diagrams).
-
-- **Over-Simplification**: While ER diagrams are helpful for outlining a basic database structure, they can sometimes oversimplify complex relationships, which may result in important details being overlooked.
-
----
+- **Lacks Detailed Constraints**:
 
 # 4. What are applications of ER Diagram?
 
@@ -69,4 +61,4 @@ An **EER (Enhanced Entity-Relationship)** diagram is an extension of the ER diag
 - **Database Documentation**: Provides a visual reference for maintaining and updating database structures.
 - **Software Development**: Defines data models for applications to interact with databases.
 - **Business Intelligence**: Supports data structure design for reporting and analytics in BI systems.
-- **E-Commerce Systems**: Models components like customers, orders, and products for e-commerce platforms.
+- **E-Commerce Systems**: Models components like customers, orders, and products for e-commerce platforms.       
